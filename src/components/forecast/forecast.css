@@ -1,0 +1,89 @@
+.forecast-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #d0bdf4;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.daily-item {
+  display: flex;
+  gap: 3rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 1rem;
+  width: 250px;
+}
+
+.daily-item-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.day {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.forecast-temperature {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.forecast-min-max {
+  font-size: 13px;
+}
+
+.daily-item-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.forecast-icon-small {
+  width: 100px;
+}
+
+.forecast-description {
+  font-weight: 600;
+  font-size: 12px;
+}
+.forecast-welcome-text-container {
+  background-color: #d0bdf4;
+}
+
+.forecast-welcome-text {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 1rem;
+  color: #12343b;
+  /* width: 250px; */
+}
+
+.daily-details-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 1rem;
+  width: 250px;
+}
